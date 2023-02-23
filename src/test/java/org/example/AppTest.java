@@ -25,8 +25,8 @@ public class AppTest
     @Test
     public void checkSumZero() {
         Calculator calculator = new Calculator();
-        int sumResult = calculator.doSum(0, 0);
-        assertEquals(0, sumResult);
+        int sumResult = calculator.doSum(0, 2);
+        assertEquals(2, sumResult);
     }
 
     @Test
@@ -46,8 +46,8 @@ public class AppTest
     @Test
     public void checkDiffZero() {
         Calculator calculator = new Calculator();
-        int diffResult = calculator.doDiff(0, 0);
-        assertEquals(0, diffResult);
+        int diffResult = calculator.doDiff(6, 0);
+        assertEquals(6, diffResult);
     }
 
     @Test
